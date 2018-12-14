@@ -1,0 +1,31 @@
+{% load static %}
+
+    <link rel="stylesheet" href="{% static 'YogaApp/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/YogaApp.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!--Nav Bar Here-->
+<div class="pos-f-t">
+    <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h4 class="text-white">Lotus Goddess Yoga</h4>
+            <a href="#"><p style="color: white">Home</p></a>
+            <a href="#"><p style="color: white">About</p></a>
+            <a href="#"><p style="color: white">Schedule</p></a>
+            <a href="#"><p style="color: white">Community</p></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+</div>
+
+<!--Block Tag Content Here-->
+{% block content %}
+
+{% endblock %}
+
+<script src="{% static 'YogaApp/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static  'YogaApp/bootstrap.js' %}"></script>

@@ -1,0 +1,14 @@
+#home1Content{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+    background-color: darkgray;
+    background: rgba(204, 204, 204, 0.8);
+    color: #1b1e21;
+}
+
+hr{
+    width: 300px;
+}
+
+

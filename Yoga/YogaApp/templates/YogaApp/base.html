@@ -1,9 +1,19 @@
 {% load static %}
 
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Courgette" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'YogaApp/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/YogaApp.css' %}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+<style>
+    #home1{
+        width: 100%;
+        height: 600px;
+        /*opacity: 0.5;*/
+        background-image: url("{% static 'backbend.jpg' %}");
+
+    }
+</style>
 <!--Nav Bar Here-->
 <div class="pos-f-t">
     <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
@@ -24,6 +34,22 @@
 
 <!--Block Tag Content Here-->
 {% block content %}
+<div id="home1">
+    <br><br><br><br><br>
+    <div id="home1Content">
+        <br><br>
+        <h1 class="head">Breathe . Yoga . Meditate</h1>
+        <hr/>
+        <h4>Welcome To The Pond</h4>
+        <br><br>
+    </div>
+</div>
+<div id="home2">
+
+</div>
+<div id="home3">
+
+</div>
 
 {% endblock %}
 

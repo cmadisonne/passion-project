@@ -19,5 +19,8 @@ from YogaApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.base, name='home')
+    path('', views.base, name='home'),
+    path('about/', views.about, name='about'),
+    path('schedule/', views.schedule, name='schedule'),
+    path('community/', views.community, name='community')
 ]

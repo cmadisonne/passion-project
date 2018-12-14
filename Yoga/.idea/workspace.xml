@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c250b401-7a41-4d24-8ef2-2f4fd71119f0" name="Default Changelist" comment="" />
+    <list default="true" id="c250b401-7a41-4d24-8ef2-2f4fd71119f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Yoga/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yoga/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YogaApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/YogaApp/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,52 +23,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#a#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/schedule.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/community.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YogaApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -73,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Yoga/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="360">
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
               <folding>
                 <element signature="e#628#660#0" expanded="true" />
               </folding>
@@ -112,12 +73,12 @@
         <option value="$PROJECT_DIR$/YogaApp/migrations/forms.py" />
         <option value="$PROJECT_DIR$/YogaApp/admin.py" />
         <option value="$PROJECT_DIR$/YogaApp/static/css/YogaApp.css" />
-        <option value="$PROJECT_DIR$/YogaApp/views.py" />
-        <option value="$PROJECT_DIR$/Yoga/urls.py" />
         <option value="$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html" />
         <option value="$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html" />
         <option value="$PROJECT_DIR$/YogaApp/templates/YogaApp/schedule.html" />
         <option value="$PROJECT_DIR$/YogaApp/templates/YogaApp/community.html" />
+        <option value="$PROJECT_DIR$/YogaApp/views.py" />
+        <option value="$PROJECT_DIR$/Yoga/urls.py" />
       </list>
     </option>
   </component>
@@ -156,18 +117,6 @@
               <item name="Yoga" type="b2602c69:ProjectViewProjectNode" />
               <item name="Yoga" type="462c0819:PsiDirectoryNode" />
               <item name="YogaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yoga" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yoga" type="462c0819:PsiDirectoryNode" />
-              <item name="YogaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yoga" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yoga" type="462c0819:PsiDirectoryNode" />
-              <item name="YogaApp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,7 +138,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544818279466" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544819363265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Hackathon/AttendanceTracker/TheAttendance" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -230,15 +179,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544723567969</updated>
-      <workItem from="1544723569272" duration="7333000" />
+      <workItem from="1544723569272" duration="8262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7333000" />
+    <option name="totallyTimeSpent" value="8262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="623" y="27" width="977" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -312,26 +262,6 @@
     <entry file="file://$PROJECT_DIR$/YogaApp/static/css/YogaApp.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Yoga/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/YogaApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/static/YogaApp/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -343,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="366">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -357,21 +287,41 @@
     <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/community.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YogaApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Yoga/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

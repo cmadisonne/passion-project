@@ -8,11 +8,16 @@
 <style>
     #home1{
         width: 100%;
-        height: 600px;
+        height: 650px;
         /*opacity: 0.5;*/
         background-image: url("{% static 'backbend.jpg' %}");
-
     }
+    #about1{
+         width: 100%;
+         height: 100%;
+         /*opacity: 0.5;*/
+         background-image: url("{% static 'downdog.jpg' %}");
+     }
 </style>
 <!--Nav Bar Here-->
 <div class="pos-f-t">
@@ -29,28 +34,26 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
+
     </nav>
 </div>
 
 <!--Block Tag Content Here-->
 {% block content %}
 <div id="home1">
-    <br><br><br><br><br>
+    <br><br><br>
+    <h1 style="font-size: 55px">Welcome To The Pond</h1>
+    <br><br>
     <div id="home1Content">
         <br><br>
-        <h1 class="head">Breathe . Yoga . Meditate</h1>
+        <h1 class="head" style="font-size: 40px">Breathe . Yoga . Meditate</h1>
         <hr/>
-        <h4>Welcome To The Pond</h4>
+        <p>"The very heart of yoga practice is 'abyhasa' -steady effort in the direction you want to go"</p>
+        <p>-Sally Kempton</p>
         <br><br>
     </div>
 </div>
-<div id="home2">
-
-</div>
-<div id="home3">
-
-</div>
-
 {% endblock %}
 
 <script src="{% static 'YogaApp/jquery-3.3.1.min.js' %}"></script>

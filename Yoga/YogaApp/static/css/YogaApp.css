@@ -7,8 +7,17 @@
     color: #1b1e21;
 }
 
-hr{
-    width: 300px;
+#home1{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
 }
 
+hr{
+    width: 380px;
+}
+
+#about1{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
 

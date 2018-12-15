@@ -4,8 +4,7 @@
     <list default="true" id="c250b401-7a41-4d24-8ef2-2f4fd71119f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YogaApp/static/css/YogaApp.css" beforeDir="false" afterPath="$PROJECT_DIR$/YogaApp/static/css/YogaApp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YogaApp/static/eagle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YogaApp/static/group.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YogaApp/static/downdog.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html" afterDir="false" />
     </list>
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="234">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#a#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -46,8 +45,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="399">
+              <caret line="31" column="108" lean-forward="true" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#span#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YogaApp/static/css/YogaApp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -161,7 +164,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544832834732" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544905000425" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Django/devportfolio/devportfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -202,28 +205,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544723567969</updated>
-      <workItem from="1544723569272" duration="21565000" />
+      <workItem from="1544723569272" duration="26661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21565000" />
+    <option name="totallyTimeSpent" value="26661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="623" y="27" width="977" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27497315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21804512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.8474758" visible="true" weight="0.32756132" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.15252417" side_tool="true" visible="true" weight="0.32756132" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.8474758" visible="true" weight="0.064935066" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.15252417" side_tool="true" visible="true" weight="0.064935066" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -360,8 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="234">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#a#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -375,15 +379,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/static/css/YogaApp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YogaApp/templates/YogaApp/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="399">
+          <caret line="31" column="108" lean-forward="true" selection-start-line="31" selection-start-column="108" selection-end-line="31" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#span#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

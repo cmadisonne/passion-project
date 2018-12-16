@@ -1,6 +1,22 @@
 {% extends "YogaApp/base.html" %}
 
 {% block content %}
-<h1>Schedule</h1>
-<iframe src="https://www.sagenda.net/Frontend/Calendar/5c1561ab00a820542c0492b4" width="1050" height="1200" frameborder="0" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"></iframe>
+<div style="text-align: center" id="schedule1">
+    <div style="text-align: center" id="steps">
+                    <br><br><br>
+        <h1> Book A Session </h1>
+                <hr>
+        <p>Step 1: Check Availability Calendar & Choose Date/Time<br>
+            <br>
+            Step 2: Fill Out Form <br>
+            <br>
+            Step 3: Book & Become A Member<br>
+            <br>
+            Step 4: Receive Email Confirmation and Payment Process</p>
+        <br><br>
+    </div>
+    <div id="calendar">
+    <iframe src="https://www.sagenda.net/Frontend/Calendar/5c1561ab00a820542c0492b4" width="1050" height="1200" frameborder="0" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"></iframe>
+    </div>
+</div>
 {% endblock %}

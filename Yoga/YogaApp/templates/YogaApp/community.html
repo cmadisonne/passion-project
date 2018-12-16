@@ -1,5 +1,29 @@
 {% extends "YogaApp/base.html" %}
+{% load static %}
 
 {% block content %}
-<h1>Community</h1>
+
+<div id="community2">
+    <h3>What's Happening At The Pond</h3>
+    <br><br>
+    <div id="cards">
+        <div class="card" style="display: table-cell;">
+          <img class="card-img-top" src="{% static 'group.jpg' %}" alt="Card image cap">
+          <div class="card-body">
+            <strong class="card-title">Group Class</strong>
+            <p class="card-text">Friends & Family Group Sessions</p>
+            <a href="{% url 'schedule' %}" class="btn btn-primary">Join Us</a>
+          </div>
+        </div>
+        <div class="card" style="display: table-cell;">
+          <img class="card-img-top" src="{% static 'godbody.jpg' %}" alt="Card image cap">
+          <div class="card-body">
+            <strong class="card-title">GodBody Yoga Class</strong>
+            <p class="card-text">Free Yoga Classes All December. Saturday's @ 12 Noon</p>
+            <a href="{% url 'schedule' %}" class="btn btn-primary">Join Us</a>
+          </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

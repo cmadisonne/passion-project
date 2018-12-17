@@ -23,3 +23,13 @@ def contact (request):
     else:
         form = ContactForm()
         return render(request, 'YogaApp/contact.html', {'form':form})
+
+def request (request):
+    if request.method == 'POST':
+        form = EventForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('request')
+    else:
+        form = EventForm()
+        return render(request, 'YogaApp/request.html', {'form':form})

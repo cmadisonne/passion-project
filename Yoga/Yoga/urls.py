@@ -24,4 +24,5 @@ urlpatterns = [
     path('schedule/', views.schedule, name='schedule'),
     path('community/', views.community, name='community'),
     path('contact/', views.contact, name='contact'),
+    path('request/', views.request, name='request'),
 ]

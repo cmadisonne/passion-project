@@ -1,0 +1,17 @@
+{% extends "YogaApp/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div id="request1">
+    <br><br>
+    <h1>Submit Event Request</h1>
+    <p>*Please Include Event Director/ Venue Owner Contact Information</p>
+    <br>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="btn btn-success btn-lg" type="submit" value="Submit">
+    </form>
+</div>
+{% endblock %}

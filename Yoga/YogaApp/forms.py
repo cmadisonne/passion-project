@@ -13,3 +13,6 @@ class EventForm(forms.ModelForm):
     class Meta:
         model = Events
         fields= '__all__'
+        widgets = {
+            'description': forms.Textarea
+        }

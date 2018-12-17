@@ -1,0 +1,17 @@
+{% extends "YogaApp/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div id="contact1">
+    <br><br>
+    <h1>Would You Like To Contact Me?</h1>
+    <br><br>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="btn btn-success btn-lg" type="submit" value="Submit">
+    </form>
+</div>
+
+{% endblock %}

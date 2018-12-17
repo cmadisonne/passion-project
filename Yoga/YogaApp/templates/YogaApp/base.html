@@ -20,6 +20,12 @@
          background: url("{% static 'downdog.jpg' %}") no-repeat;
         background-size: 100%;
      }
+    #contact1{
+        width: 100%;
+        height: 100%;
+        background: url("{% static 'lotus.jpg' %}") no-repeat;
+        background-size: 100%;
+    }
 </style>
 <!--Nav Bar Here-->
 <div class="pos-f-t">
@@ -30,6 +36,7 @@
             <a href="{% url 'about' %}"><p style="color: white">About</p></a>
             <a href="{% url 'schedule' %}"><p style="color: white">Schedule</p></a>
             <a href="{% url 'community' %}"><p style="color: white">Community</p></a>
+            <a href="{% url 'contact' %}"><p style="color: white">Contact</p></a>
         </div>
     </div>
     <nav class="navbar navbar-dark bg-dark">

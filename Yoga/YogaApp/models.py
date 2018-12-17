@@ -4,6 +4,7 @@ from django.db import models
 class Contact(models.Model):
     name = models.CharField(max_length=50)
     number = models.CharField(max_length=12)
+    email = models.EmailField(default=None)
     message = models.CharField(max_length=200)
 
     def __str__(self):
@@ -16,3 +17,6 @@ class Events(models.Model):
     time = models.TimeField(auto_now=False, auto_now_add=False)
     description = models.CharField(max_length=500)
     image = models.ImageField(upload_to=None, height_field=None, width_field=None, max_length=100)
+
+    def __str__(self):
+        return self.name

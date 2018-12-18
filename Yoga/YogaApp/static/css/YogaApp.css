@@ -53,14 +53,24 @@ hr{
     height: 600px;
 }
 
+#search{
+    color: white;
+}
+
+.form-control{
+}
+
 #events{
     /*margin-left: 70px;*/
     /*margin-right: 70px;*/
     text-align: center;
-
 }
 
-#godbody, #nuafrikan{
+#eventItems{
+    display: inline-block;
+}
+
+#result{
     display: inline-block;
 }
 
@@ -118,17 +128,3 @@ form{
 #calendar{
     opacity: 0.9;
 }
-
-#events img {
-    width: 300px;
-}
-
-
-
-
-
-
-
-
-
-

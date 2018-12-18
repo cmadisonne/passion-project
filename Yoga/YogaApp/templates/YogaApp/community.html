@@ -43,33 +43,41 @@
     <h1>
         What's Happening Around Town
     </h1>
+    <form id="search" method="GET" action="">
+        <div class="row">
+        <input class="form-control col-sm-4" type="text" placeholder="Search Events" name="query">
+        <input class="btn btn-dark" type="submit" value="Search">
+        </div>
+    </form>
     <br>
     <div id="events">
-                <div>
-                    <div id="godbody" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <div class="card-header"><h1>Free Yoga Classes</h1></div>
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>ALL DECEMBER</strong></h5>
-                            <p class="card-text"><strong>Location</strong>: 3964 Park Ave., Memphis, TN<br>
-                                <strong>When</strong>: Every Saturday @ 12 Noon <br>
-                                <strong>Description</strong>: God Body Fitness & Nutrition is offering free yoga classes all
-                                December in honor of it's grand opening. Go enjoy a Saturday of free yoga before
-                                the special ends.
-                            </p>
-                        </div>
-                    </div>
-                    <div id="nuafrikan" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-                        <div class="card-header"><h1>Black Holistic Health Expo</h1></div>
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>JANUARY 5, 2019</strong></h5>
-                            <p class="card-text"><strong>Location</strong>: 485 Beale St., Memphis, TN<br>
-                                <strong>When</strong>: 10 AM - 8 PM <br>
-                                <strong>Description</strong>: Black Holistic Health Expo. Guest appearance from Dr. Llaila Afrika
-                                @ The Martin Luther King Center. Vegan Brunch Tasting, Yoga, Panel Discussion, etc. Enjoy & Educate
-                            </p>
-                        </div>
+    {% if result %}
+        {% for results in result %}
+            <div id="result" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header"><h1>{{ results.name }}</h1></div>
+                <div class="card-body">
+                    <h5 class="card-title"><strong>{{ results.date }}</strong></h5>
+                    <p class="card-text"><strong>Location</strong>: {{ results.location }}<br>
+                        <strong>When</strong>: {{ results.time }} <br>
+                        <strong>Description</strong>: {{ results.description }}
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+        {% elif events %}
+            {% for eachEvent in events %}
+                <div id="eventItems" class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><h1>{{ eachEvent.name }}</h1></div>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>{{ eachEvent.date }}</strong></h5>
+                        <p class="card-text"><strong>Location</strong>: {{ eachEvent.location }}<br>
+                            <strong>When</strong>: {{ eachEvent.time }} <br>
+                            <strong>Description</strong>: {{ eachEvent.description }}
+                        </p>
                     </div>
                 </div>
+            {% endfor %}
+        {% endif %}
     </div>
 
     <a href="{% url 'request' %}"><p style="color: white">Request To Have An Event Added To The Site</p></a>

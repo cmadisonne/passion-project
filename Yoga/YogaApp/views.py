@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect, get_object_or_404
-from .forms import EventForm,ContactForm
+from .forms import RequestForm, ContactForm, EventForm
+from .models import Events
 
 # Create your views here.
 def base (request):
@@ -12,7 +13,8 @@ def schedule (request):
     return render(request, 'YogaApp/schedule.html')
 
 def community (request):
-    return render(request, 'YogaApp/community.html')
+    events = EventForm()
+    return render(request, 'YogaApp/community.html', {'events': events})
 
 def contact (request):
     if request.method == 'POST':
@@ -26,10 +28,10 @@ def contact (request):
 
 def request (request):
     if request.method == 'POST':
-        form = EventForm(request.POST)
+        form = RequestForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('request')
     else:
-        form = EventForm()
+        form = RequestForm()
         return render(request, 'YogaApp/request.html', {'form':form})

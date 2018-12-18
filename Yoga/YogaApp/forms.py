@@ -1,5 +1,5 @@
 from django import forms
-from .models import Events, Contact
+from .models import Events, Contact, Requests
 
 class ContactForm(forms.ModelForm):
     class Meta:
@@ -7,6 +7,14 @@ class ContactForm(forms.ModelForm):
         fields = '__all__'
         widgets = {
             'message': forms.Textarea
+        }
+
+class RequestForm(forms.ModelForm):
+    class Meta:
+        model = Requests
+        fields= '__all__'
+        widgets = {
+            'description': forms.Textarea
         }
 
 class EventForm(forms.ModelForm):

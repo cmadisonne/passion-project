@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from YogaApp import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,4 +27,4 @@ urlpatterns = [
     path('community/', views.community, name='community'),
     path('contact/', views.contact, name='contact'),
     path('request/', views.request, name='request'),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -1,3 +1,20 @@
+.pos-f-t{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.pos-f-t p{
+    font-size: 22px;
+}
+
+.pos-f-t h4{
+    font-size: 30px;
+}
+
+#navLine{
+    background-color: white;
+}
+
 #home1Content{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
@@ -19,6 +36,11 @@ hr{
 #about1{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
+}
+
+#about1 h1{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: .5px black;
 }
 
 #about2{
@@ -55,15 +77,20 @@ hr{
 
 #search{
     color: white;
+    margin-left: 38%;
 }
 
 .form-control{
 }
 
+.col-centered{
+    margin: 0 auto;
+    float: none;
+}
+
 #events{
-    /*margin-left: 70px;*/
-    /*margin-right: 70px;*/
     text-align: center;
+    width: 100%;
 }
 
 #eventItems{
@@ -108,17 +135,20 @@ hr{
 }
 
 #contact1 p{
-    font-size: 18px;
+    font-size: 24px;
 }
 
 form{
-    opacity: 0.7;
+    opacity: 0.8;
+    font-size: 22px;
 }
 
 #request1{
     text-align: center;
     color: white;
     font-family: 'Cormorant Garamond', serif;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 #request1 p{
